@@ -53,6 +53,7 @@ refactor/simplify-auth-context         # Code refactoring
 style/mobile-job-card-spacing          # Visual/style changes
 ```
 
+- **Never commit directly to `main`** — all work must go through a branch + PR, no exceptions
 - Branch off `main` for all new work
 - Keep branches short-lived; open a PR when ready
 - Delete branches after merging
