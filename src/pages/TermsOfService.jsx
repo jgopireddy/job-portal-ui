@@ -16,8 +16,8 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-800 mb-3">Acceptance of Terms</h2>
           <p className="text-gray-600 leading-relaxed">
-            By accessing or using JobPortal, you agree to be bound by these Terms of
-            Service. If you do not agree, please do not use the platform.
+            By accessing or using JobPortal, you agree to be bound by these Terms of Service.
+            If you do not agree to these terms, please do not use the platform.
           </p>
         </section>
 
@@ -25,24 +25,24 @@ const TermsOfService = () => {
           <h2 className="text-xl font-bold text-gray-800 mb-3">Use of the Platform</h2>
           <ul className="space-y-4">
             <li>
-              <span className="font-semibold text-gray-700">Eligibility — </span>
+              <span className="font-semibold text-gray-700">Job Seekers — </span>
               <span className="text-gray-600">
-                You must be at least 18 years old to create an account and use JobPortal
-                services.
+                You may browse job listings, apply to positions, and manage your profile.
+                You are responsible for the accuracy of the information you provide.
               </span>
             </li>
             <li>
-              <span className="font-semibold text-gray-700">Account Responsibility — </span>
+              <span className="font-semibold text-gray-700">Employers — </span>
               <span className="text-gray-600">
-                You are responsible for maintaining the confidentiality of your account
-                credentials and for all activity that occurs under your account.
+                You may post job listings and review applicants. Job listings must be for
+                genuine employment opportunities and must comply with applicable employment laws.
               </span>
             </li>
             <li>
               <span className="font-semibold text-gray-700">Prohibited Conduct — </span>
               <span className="text-gray-600">
-                You may not post false or misleading job listings, scrape platform data,
-                or use the service for any unlawful purpose.
+                You may not use the platform for fraudulent purposes, post misleading content,
+                or attempt to gain unauthorised access to other users&apos; accounts.
               </span>
             </li>
           </ul>
@@ -51,25 +51,34 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-800 mb-3">Intellectual Property</h2>
           <p className="text-gray-600 leading-relaxed">
-            All content on JobPortal — including text, graphics, and software — is owned
-            by or licensed to JobPortal. You may not reproduce or distribute it without
-            written permission.
+            All content on JobPortal, including text, graphics, and logos, is the property of
+            JobPortal or its content suppliers. You may not reproduce or distribute any content
+            without prior written permission.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-xl font-bold text-gray-800 mb-3">Limitation of Liability</h2>
           <p className="text-gray-600 leading-relaxed">
-            JobPortal is provided on an &ldquo;as is&rdquo; basis. We do not guarantee
-            employment outcomes and are not liable for any indirect or consequential
-            damages arising from use of the platform.
+            JobPortal is provided on an &quot;as is&quot; basis. We do not guarantee the accuracy
+            of job listings or the suitability of any candidate. To the fullest extent permitted
+            by law, JobPortal shall not be liable for any indirect or consequential losses
+            arising from your use of the platform.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-bold text-gray-800 mb-3">Changes to Terms</h2>
+          <p className="text-gray-600 leading-relaxed">
+            We may update these Terms of Service from time to time. Continued use of the
+            platform after changes are posted constitutes your acceptance of the revised terms.
           </p>
         </section>
 
         <section>
           <h2 className="text-xl font-bold text-gray-800 mb-3">Contact Us</h2>
           <p className="text-gray-600 leading-relaxed">
-            If you have questions about these Terms, please{" "}
+            If you have questions about these terms, please{" "}
             <Link to="/contact" className="text-primary-600 hover:underline">
               contact us
             </Link>
