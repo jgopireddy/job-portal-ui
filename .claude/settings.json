@@ -1,5 +1,9 @@
 {
   "enabledPlugins": {
     "commit-commands@claude-plugins-official": true
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/jgopireddy/projects/claudeproj/job-portal-ui/statusline.sh"
   }
 }
